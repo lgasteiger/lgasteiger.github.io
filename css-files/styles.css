@@ -1,0 +1,28 @@
+h1 {
+  color: blue;
+} /* end h1 style */
+
+h2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  font-family: Verdana;
+  font-size: 35px;
+  text-align: center;
+} /* end h2 style */
+
+h3 {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+} /* end h3 style */
+
+h4 {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: black;
+} /* end h4 style */
+
+p {
+  font-size: 24px;
+} /* end p style */
