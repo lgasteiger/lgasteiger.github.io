@@ -1,6 +1,6 @@
 body {
   margin: 2rem;
-  font-size: 24px;
+  font-size: 1rem;
 }
 
 h1 {
@@ -49,19 +49,43 @@ li:last-child {
   border-right: none;
 }
 
-li a {
-  display: block;
+li a, .dropbtn-b1, .dropbtn-b2 {
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover:not(.active) {
+li a:hover, .dropdown-b1:hover .dropbtn-b1, .dropdown-b2:hover .dropbtn-b2 {
   background-color: #04AA6D;
 }
 
-.active {
-  background-color: #04AA6D;
+li.dropdown-b1, li.dropdown-b2 {
+  display: inline-block;
+}
+
+.dropdown-b1-content, .dropdown-b2-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-b1-content a, .dropdown-b2-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-b1-content a:hover, .dropdown-b2-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-b1:hover .dropdown-b1-content, .dropdown-b2:hover .dropdown-b2-content {
+  display: block;
 }
