@@ -89,3 +89,7 @@ li.dropdown-b1, li.dropdown-b2 {
 .dropdown-b1:hover .dropdown-b1-content, .dropdown-b2:hover .dropdown-b2-content {
   display: block;
 }
+
+li.menuLi {
+  display: block;
+}
