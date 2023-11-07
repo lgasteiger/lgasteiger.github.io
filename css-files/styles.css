@@ -90,6 +90,14 @@ li.dropdown-b1, li.dropdown-b2 {
   display: block;
 }
 
-li.menuLi {
-  display: block;
+.vertAlignBaseline {
+  vertical-align: baseline;
+}
+
+.vertAlignBottom {
+  vertical-align: bottom;
+}
+
+.vertAlignMiddle {
+  vertical-align: middle
 }
