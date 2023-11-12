@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Tags</title>
+    <style>
+      /*
+      Add CSS code here for single page styling.
+      */
+    </style>
+    <link rel="stylesheet" href="../css-files/styles.css">
+  <head>
+  <body>
+    <header>
+      <h1>Basic HTML Tags</h1>
+      <img src="../images/iis-logo.png" alt="Isn't it Semantic? company logo">
+      <br>
+      Welcome to "Isn't it Semantic?"
+      <hr>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section1">
+        <h2>Example 1</h2>
+        <h3>Getting to Know HTML’s Basic Structure Tags</h3>
+        <p>
+          One of the most important concepts you need to understand as you get started with HTML is that whatever text you shoehorn between the &lt;body&gt; and &lt;/body&gt; tags has almost no structure. To show you what I mean, I copied the first few headings and paragraphs of this section and pasted them into an HTML file. Figure 1-1 shows what happens when I open the HTML file in a web browser.
+        </p>
+        <p>  
+          The resulting web page is anything but pretty and is very hard to read. Why? Because unlike the nicely structured — and therefore eminently readable — text you’re eyeballing right now, all that structure got thrown out the window when I pasted the text into the HTML file. Remember, HTML files are really just plain-text files, so all the fancy formatting and styles that were in my original Microsoft Word document were discarded.
+        </p>
+        <p>
+          Fortunately, this absence of formatting does not mean that you can’t build well-structured web documents. The secret to getting your web pages to look every bit as nice as the page you’re reading is HTML’s powerful collection of structure elements. Using these elements, you can create standard structures such as paragraphs and headings, as well as larger page items such as headers, articles, and footers.
+        </p>
+        <hr>
+        <h4>
+          Creating paragraphs
+        </h4>
+        <p>
+          One of the main themes of this chapter is to explore various ways to avoid presenting your web page visitors with a mass of mostly undifferentiated text, like the example shown earlier in Figure 1-1. Why? Because such text is off-putting to look at and difficult to read.
+          Almost all of HTML has that theme in mind and, in the broadest interpretation, almost every HTML element is designed to structurally differentiate text in some way.
+        </p>
+      </section>
+      <section class="section2">
+        <p>
+          Notice how an <span style="font-variant: small-caps">inline element</span> flow right along with the rest of the text.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <div>
+        Requisite social media links:
+      </div>
+      <!--
+        Each of the following links needs to be updated with the full address to our corresponding social media page. Thanks!
+      -->
+      <div>
+        <ul>
+          <li><a hrer="https://www.netflix.com">Netflix</a></li>
+          <li><a href="https://www.amazon.com">Amazon Prime</a></li>
+          <li><a href="https://www.disneyplus.com">Disney+</a></li>
+          <li><a href="https://www.bing.com">Microsoft Bing</a></li>
+        </ul>
+      </div>
+      <script>
+        document.write(`Last modified: ${document.lastModified}`);
+      </script>
+    </footer>
+
+    <script>
+      /*
+      <script src="filename.js"
+      */
+    </script>
+  </body>
+</html>

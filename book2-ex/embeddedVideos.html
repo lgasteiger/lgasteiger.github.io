@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Videos Examples</title>
+    <link rel="stylesheet" href="../css-files/styles.css">
+  <head>
+  <body>
+    <header>
+      <h1 id="top">Embedded Videos Examples</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <section class="sharedEmbeddedVideos">
+          <h2>Video Embedding Examples</h2>
+          <div>
+            <h3>Vimeo Embedded Video Example</h3>
+            <iframe title="vimeo-player" 
+                    src="https://player.vimeo.com/video/830712593?h=61d5916091" 
+                    width="640" 
+                    height="360" 
+                    frameborder="0"    
+                    allowfullscreen
+            ></iframe>
+          </div>
+          <div>
+            <h3>YouTube Embedded Video Example</h3>
+            <iframe width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/XhLlRS2-BO8?si=dEwMvKb44mdxAoAc" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen
+            ></iframe>
+          </div>
+        </section>
+        <section class="localEmbeddedVideos">
+          <div>
+            <h3>Locally Stored Embedded Video Example</h3>
+            <video src="../videos/bear.mp4"
+                   poster="../images/bear.png"
+                   width="640"
+                   heigth="480"
+                   autoplay
+                   controls
+                   loop
+            ></video>
+          </div>
+        </section>
+        <section class="topLink">
+          <p>
+            <a href="#top">Goto Top</a>
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <br>
+      <div>
+        Requisite media links
+      </div>
+      <!--
+        Each of the following links needs to be updated with the full address to our corresponding media page(s). Thanks!
+      -->
+      <div>
+        <ul>
+          <li><a href="www.bing.com">MS Bing Chat</a></li>
+          <li><a href ="www.openai.com">Open Ai</a></li>
+        </ul>
+      </div>
+      <script>
+        document.write(`Last modified: ${document.lastModified}`);
+      </script>
+    </footer>      
+    
+    <script>
+      /*
+      <script src="filename.js"
+      */
+    </script>
+  </body>
+</html>
