@@ -105,3 +105,48 @@ li.dropdown-b1, li.dropdown-b2 {
 .vertAlignTop {
   vertical-align: top
 }
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  caption-side: bottom;
+  text-align: left;
+  padding-top: 5px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+th {
+  /* width: 200px; */
+  padding: 10px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+td:nth-child(1) {
+  width: 300px;
+}
+
+td:nth-child(4) {
+  width: 300px;
+}
+
+td.nums {
+  text-align: right;
+}
+
+td.lblTotal {
+  text-align: right;
+  font-weight: bold;
+}
+
+td.totVal {
+  text-align: left;
+  font-weight: bold;
+}
