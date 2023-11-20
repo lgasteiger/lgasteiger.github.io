@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  margin: 2rem;
-  font-size: 1rem;
+  max-width: 50rem;
+  margin: 1em;
 }
 
 h1 {
@@ -154,4 +159,34 @@ td.totVal {
 button {
   border-radius: 15px;
   box-shadow: 3px 3px 5px grey;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin: 1rem 0 0 1rem;
+}
+
+textarea.elemTextArea {
+  margin: 0 0 1rem 1rem;
+}
+
+fieldset.chkProgLang {
+  max-width: 35rem;
+  margin: 0 0 1rem 1rem;
+}
+
+fieldset.radDesPatt {
+  max-width: 25rem;
+  margin: 0 0 1rem 1rem;
+}
+
+input[type=checkbox] {
+  margin-right: 0.5rem;
+}
+
+div.dateTimeStamp {
+  font-size: 0.75rem;
+  margin-top: 1rem;
 }
