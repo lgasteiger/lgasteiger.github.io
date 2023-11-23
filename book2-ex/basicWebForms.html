@@ -21,21 +21,21 @@
         <section class="section1">
           <h2>Basic Web Form</h2>
           <form>
-            <label for="companyName">Company name:
+            <label for="companyName" class="lblInput">Company name:
               <input id="companyName"
                      type="text"
                      name="companyName"
                      size="35"
               >
             </label>
-            <label for="numPoints">Number of points:
+            <label for="numPoints" class="lblInput">Number of points:
               <input id="numPoints" 
                      type="number" 
                      name="NumPoints" 
                      value="100"
               >
             </label>
-            <label for="rangePts">Range of points:
+            <label for="rangePts" class="lblInput">Range of points:
               <input id="rangePts"
                      type="range"
                      name="rangePts"
@@ -44,14 +44,14 @@
                      value="50"
               >
             </label>
-            <label for="emailAddr">Email address:
+            <label for="emailAddr" class="lblInput">Email address:
               <input id="emailAddr"
                      type="email"
                      name="emailAddr"
                      size="45"
               >
             </label>
-            <label for="urlWebAddr">URL address:
+            <label for="urlWebAddr" class="lblInput">URL address:
               <input id="urlWebAddr"
                      type="url"
                      name="urlWebAddr"
@@ -59,27 +59,27 @@
                      size="45"
               >
             </label>
-            <label for="telephoneNum">Telephone number:
+            <label for="telephoneNum" class="lblInput">Telephone number:
               <input id="telephoneNum"
                      type="tel"
                      name="telephoneNum"
                      placeholder="(xxx) xxx-xxxx"
               >
             </label>
-            <label for="startTime">Start time:
+            <label for="startTime" class="lblInput">Start time:
               <input id="startTime"
                      type="time"
                      name="startTime"
               >
             </label>
-            <label for="userPw">Password:
+            <label for="userPw" class="lblInput">Password:
               <input id="userPw"
                      type="password"
                      name="userPw"
                      autocomplete="current-password"
             >
             </label>
-            <label for="searchPhase">Search Phrase:
+            <label for="searchPhase" class="lblInput">Search Phrase:
               <input id="search Phrase"
                      type="search"
                      name="searchPhrase"
@@ -87,7 +87,7 @@
                      size="50"
             >
             </label>
-            <label for="textAreaMess">Text area:</label>
+            <label for="textAreaMess" class="lblInput">Text area:</label>
             <textarea id="textAreaMess"
                       class="elemTextArea"
                       name="textAreaMess"
@@ -95,67 +95,62 @@
                       cols="35"
             >
             </textarea>
-            <fieldset class="chkProgLang">
+            
+            <fieldset class="chkItRole">
               <legend>
-                What's your programming language? (Please check all that apply):
+                What's your IT role?
               </legend>
-              <label for="progLang">
-                <input id="progLang" 
+              <label for="chkItRole" class="lblItRole">
+                <input id="chkItRole" 
                        type="checkbox" 
-                       name="progLang"
-                       value="Javascript">
-                  Javascript (Web development)
+                       name="chkItRole"
+                       value="WebDev"
+                >Web Developer
               </label>
-              <label for="progLang">
-                <input id="progLang" 
+              <label for="chkItRole" class="lblItRole">
+                <input id="chkItRole" 
                        type="checkbox" 
-                       name="progLang"
-                       value="Python">
-                  Python (General purpose development)
+                       name="chkItRole"
+                       value="BusinessAnalyst"
+                >Business Analyst
               </label>
-              <label for="progLang">
-                <input id="progLang" 
-                       type="checkbox" 
-                       name="progLang"
-                       value="SwiftUI">
-                  Swift UI (Mobile development)
-              </label>
-              <label for="progLang">
-                <input id="progLang" 
-                       type="checkbox" 
-                       name="progLang"
-                       value="Android Kotlin">
-                  Android Kotlin (Mobile development)
-              </label>
+              <label for="chkItRole" class="lblItRole">
+                <input id="chkItRole"
+                       type="checkbox"
+                       name="chkItRole"
+                       value="ProjectMger"
+                >Project Manager
+              </lable>
+
             </fieldset>
             <fieldset class="radDesPatt">
               <legend>Select a Design Pattern</legend>
-              <label for="MVC">MVC (Model View Controller)
-                <input id="MVC"
-                       type="radio"
-                       name="MVC"
-                       value="MVC"
-                >
-              </label>
-              <label for="MVVC">MVVC (Model View View Controller)
-                <input id="MVVC"
-                       type="radio"
-                       name="MVVC"
-                       value="MVVC"
-                >
-              </label>
-              <label for="MaterialDesign">Material Design
-                <input id="MaterialDesign"
-                       type="radio"
-                       name="MaterialDesign"
-                       value="MaterialDesign"
-                >
-              </label>
+              <input type="radio" 
+                     id="MVC" 
+                     name="designPattern" 
+                     value="MVC"
+              >
+              <label for="MVC" class="lblDesPatt">MVC (Model-View-Controller)</label>
+              <br>
+              <input type="radio"
+                     id="MVVC" 
+                     name="designPattern"
+                     value="MVVC" 
+              >
+              <label for="MVVC" class="lblDesPatt">MVVC (Model-View-View-Controller)</label>
+              <br>
+              <input type="radio" 
+                     id="MaterialDesign"
+                     name="designPattern"
+                     value="MaterialDesign"
+              >
+              <label for="MaterialDesign" class="lblDesPatt">Material Design</label>
+              <br>
             </fieldset>
             <label for="btnUpdateInfo">
               <button id="btnUpdateInfo" 
                       type="submit">
-                      Update info
+                Update info
               </button>
             </label>
           </form>
