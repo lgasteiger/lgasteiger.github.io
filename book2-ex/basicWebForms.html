@@ -98,7 +98,7 @@
             
             <fieldset class="chkItRole">
               <legend>
-                What's your IT role?
+                What's your IT role(s)?
               </legend>
               <label for="chkItRole" class="lblItRole">
                 <input id="chkItRole" 
@@ -146,6 +146,38 @@
               >
               <label for="MaterialDesign" class="lblDesPatt">Material Design</label>
               <br>
+            </fieldset>
+
+            <fieldset class="selLstTech">
+              <legend>Please select the associated tech you work in.</legend>
+                <div class="frontEndFrame">
+                  <label for="frontEndLang">Front-end Frameworks:</label>
+                  <br>
+                  <select id="frontEndlang"
+                          name="frontEndLang"
+                          multiple
+                  >
+                    <option value="vanillaJs">Vanilla Js</option>
+                    <option value="reactJs">ReactJs</option>
+                    <option value="VueJs">VueJs</option>
+                    <option value="svelteJs">SvelteJs</option>
+                  </select>
+                </div>
+
+                <div class="dbms">
+                  <label for="databases">Databases:</label>
+                  <br>
+                  <select id="databases"
+                          name="databases"
+                          multiple
+                  >
+                    <option value="sqlServer">SQL Server</option>
+                    <option value="mongoDb">MongoDB</option>
+                    <option value="mySql">MySQL</option>
+                    <option value="s3">S3</option>
+                    <option value="oracle">Oracle</option>
+                  </select>
+                </div>
             </fieldset>
             <label for="btnUpdateInfo">
               <button id="btnUpdateInfo" 

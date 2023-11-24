@@ -172,7 +172,7 @@ textarea.elemTextArea {
   margin: 0 0 1rem 1rem;
 }
 
-fieldset.chkItRole {
+fieldset.chkItRole, fieldset.radDesPatt, fieldset.selLstTech {
   max-width: 25rem;
   margin: 0 0 1rem 1rem;
 }
@@ -181,13 +181,18 @@ input[type=checkbox] {
   margin-right: 0.5rem;
 }
 
-fieldset.radDesPatt {
-  max-width: 25rem;
-  margin: 0 0 1rem 1rem;
+input[type=radio] {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
 }
 
 label.lblDesPatt {
   margin: 0 0 0 0.5rem;
+}
+
+div.frontEndFrame, div.dbms {
+  margin: 1rem 0 0 0.5rem;
 }
 
 div.dateTimeStamp {
