@@ -163,7 +163,7 @@ button {
   margin-bottom: 1rem;
 }
 
-label.lblItRole, label.lblInput {
+label.lblTech {
   display: block;
   margin: 1rem 0 0 1rem;
 }
@@ -172,7 +172,7 @@ textarea.elemTextArea {
   margin: 0 0 1rem 1rem;
 }
 
-fieldset.chkItRole, fieldset.radDesPatt, fieldset.selLstTech {
+fieldset.fsTech, fieldset.fsPickers {
   max-width: 25rem;
   margin: 0 0 1rem 1rem;
 }
@@ -191,8 +191,17 @@ label.lblDesPatt {
   margin: 0 0 0 0.5rem;
 }
 
-div.frontEndFrame, div.dbms {
+div.selTech {
   margin: 1rem 0 0 0.5rem;
+}
+
+div.divPicker {
+  margin: 0.5rem 0 1rem 1rem;
+}
+
+label.lblPicker {
+  display: block;
+  margin: 1.5rem 0 0.5rem 0;
 }
 
 div.dateTimeStamp {

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Web Forms More Examples</title>
+    <link rel="stylesheet" href="../css-files/stylesBk02.css">
+  <head>
+  <body>
+    <header>
+      <h1 id="top">Basic Web Forms More Examples</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <section>
+          <h2>Another Basic Web Form</h2>
+          <form>
+            <fieldset class="fsPickers">
+              <legend>Picker Component Options:</legend>
+              <div class="divPicker">
+                <label for="bgcolor" class="lblPicker">Please select background color:</label>
+                <input id="bgcolor"
+                       type="color"
+                       name="bgColor"
+                       value="#4f5392"
+                >
+              </div>
+
+              <div class="divPicker">
+                <label for="apptDate" class="lblPicker">Please choose an appointment date:</label>
+                <input id="apptDate"
+                       type="date"
+                       name="apptDate"
+                       value=""
+                >
+              </div>
+
+              <div class="divPicker">
+                <label for="userPhoto" class="lblPicker">Please choose an image file:</label>
+                <input id="userPhoto"
+                       type="file"
+                       name="userPhoto"
+                       multiple
+                >
+              </div>
+
+              <div class="divPicker">
+                <label for="monthAndDay">Please choose the month and day:</label>
+                <input id="monthAndDay"
+                       type="month"
+                       name="monthAndDay"
+                       value=""
+                >
+              </div>
+
+              <div class="divPicker">
+                <label for="vacWeek">Please choose the vacation week:</label>
+                <input id="vacWeek"
+                       type="week"
+                       name="vacWeek"
+                       name=""
+                >
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </article>
+      <aside>
+        <p>
+          <a href="#top"
+             alt="Go to the top of the page"
+             title="Go to the top of the page"
+          >Goto Top</a>
+        </p>
+      </aside>
+    </main>
+    <footer>
+      <br>
+      <div>
+        Requisite media links
+      </div>
+      <!--
+        Each of the following links needs to be updated with the full address to our corresponding media page(s). Thanks!
+      -->
+      <div>
+        <ul>
+          <li><a href="www.bing.com">MS Bing Chat</a></li>
+          <li><a href ="www.openai.com">Open Ai</a></li>
+        </ul>
+      </div>
+      <div>
+        <em><strong>
+          <script>
+            document.write(`Last modified: ${document.lastModified}`);
+          </script>
+        </strong></em>
+      </div>
+    </footer>      
+    
+    <script>
+      /*
+      <script src="filename.js"
+      */
+    </script>
+  </body>
+</html>

@@ -21,21 +21,21 @@
         <section class="section1">
           <h2>Basic Web Form</h2>
           <form>
-            <label for="companyName" class="lblInput">Company name:
+            <label for="companyName" class="lblTech">Company name:
               <input id="companyName"
                      type="text"
                      name="companyName"
                      size="35"
               >
             </label>
-            <label for="numPoints" class="lblInput">Number of points:
+            <label for="numPoints" class="lblTech">Number of points:
               <input id="numPoints" 
                      type="number" 
                      name="NumPoints" 
                      value="100"
               >
             </label>
-            <label for="rangePts" class="lblInput">Range of points:
+            <label for="rangePts" class="lblTech">Range of points:
               <input id="rangePts"
                      type="range"
                      name="rangePts"
@@ -44,14 +44,14 @@
                      value="50"
               >
             </label>
-            <label for="emailAddr" class="lblInput">Email address:
+            <label for="emailAddr" class="lblTech">Email address:
               <input id="emailAddr"
                      type="email"
                      name="emailAddr"
                      size="45"
               >
             </label>
-            <label for="urlWebAddr" class="lblInput">URL address:
+            <label for="urlWebAddr" class="lblTech">URL address:
               <input id="urlWebAddr"
                      type="url"
                      name="urlWebAddr"
@@ -59,27 +59,27 @@
                      size="45"
               >
             </label>
-            <label for="telephoneNum" class="lblInput">Telephone number:
+            <label for="telephoneNum" class="lblTech">Telephone number:
               <input id="telephoneNum"
                      type="tel"
                      name="telephoneNum"
                      placeholder="(xxx) xxx-xxxx"
               >
             </label>
-            <label for="startTime" class="lblInput">Start time:
+            <label for="startTime" class="lblTech">Start time:
               <input id="startTime"
                      type="time"
                      name="startTime"
               >
             </label>
-            <label for="userPw" class="lblInput">Password:
+            <label for="userPw" class="lblTech">Password:
               <input id="userPw"
                      type="password"
                      name="userPw"
                      autocomplete="current-password"
             >
             </label>
-            <label for="searchPhase" class="lblInput">Search Phrase:
+            <label for="searchPhase" class="lblTech">Search Phrase:
               <input id="search Phrase"
                      type="search"
                      name="searchPhrase"
@@ -87,7 +87,7 @@
                      size="50"
             >
             </label>
-            <label for="textAreaMess" class="lblInput">Text area:</label>
+            <label for="textAreaMess" class="lblTech">Text area:</label>
             <textarea id="textAreaMess"
                       class="elemTextArea"
                       name="textAreaMess"
@@ -96,34 +96,34 @@
             >
             </textarea>
             
-            <fieldset class="chkItRole">
+            <fieldset class="fsTech">
               <legend>
                 What's your IT role(s)?
               </legend>
-              <label for="chkItRole" class="lblItRole">
+              <label for="chkItRole" class="lblTech">
                 <input id="chkItRole" 
                        type="checkbox" 
                        name="chkItRole"
                        value="WebDev"
                 >Web Developer
               </label>
-              <label for="chkItRole" class="lblItRole">
+              <label for="chkItRole" class="lblTech">
                 <input id="chkItRole" 
                        type="checkbox" 
                        name="chkItRole"
                        value="BusinessAnalyst"
                 >Business Analyst
               </label>
-              <label for="chkItRole" class="lblItRole">
+              <label for="chkItRole" class="lblTech">
                 <input id="chkItRole"
                        type="checkbox"
                        name="chkItRole"
                        value="ProjectMger"
                 >Project Manager
-              </lable>
+              </label>
 
             </fieldset>
-            <fieldset class="radDesPatt">
+            <fieldset class="fsTech">
               <legend>Select a Design Pattern</legend>
               <input type="radio" 
                      id="MVC" 
@@ -145,12 +145,11 @@
                      value="MaterialDesign"
               >
               <label for="MaterialDesign" class="lblDesPatt">Material Design</label>
-              <br>
             </fieldset>
 
-            <fieldset class="selLstTech">
+            <fieldset class="fsTech">
               <legend>Please select the associated tech you work in.</legend>
-                <div class="frontEndFrame">
+                <div class="selTech">
                   <label for="frontEndLang">Front-end Frameworks:</label>
                   <br>
                   <select id="frontEndlang"
@@ -164,7 +163,7 @@
                   </select>
                 </div>
 
-                <div class="dbms">
+                <div class="selTech">
                   <label for="databases">Databases:</label>
                   <br>
                   <select id="databases"
