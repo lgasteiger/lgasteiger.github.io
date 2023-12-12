@@ -11,7 +11,7 @@
     <header>
       <h1 id="top">Basic Web Forms Examples</h1>
     </header>
-    <nav>
+    <nav aria-label="Site Navigation">
       <ul>
         <li><a href="../index.html">Home</a></li>
       </ul>
@@ -37,6 +37,7 @@
             </label>
             <label for="rangePts" class="lblTech">Range of points:
               <input id="rangePts"
+                     role="slider"
                      type="range"
                      name="rangePts"
                      min="0"
@@ -56,6 +57,7 @@
                      type="url"
                      name="urlWebAddr"
                      placeholder="e.g., http(s)://domain.com/"
+                     aria-placeholder="http(s)://domain.com/"
                      size="45"
               >
             </label>
@@ -64,6 +66,7 @@
                      type="tel"
                      name="telephoneNum"
                      placeholder="(xxx) xxx-xxxx"
+                     aria-placeholder="(xxx) xxx-xxxx"
               >
             </label>
             <label for="startTime" class="lblTech">Start time:
@@ -81,6 +84,7 @@
             </label>
             <label for="searchPhase" class="lblTech">Search Phrase:
               <input id="search Phrase"
+                     role="searchbox"
                      type="search"
                      name="searchPhrase"
                      placeholder="Type a search term"
@@ -149,7 +153,7 @@
 
             <fieldset class="fsTech">
               <legend>Please select the associated tech you work in.</legend>
-                <div class="selTech">
+                <div class="selTech" role="menu">
                   <label for="frontEndLang">Front-end Frameworks:</label>
                   <br>
                   <select id="frontEndlang"
@@ -163,7 +167,7 @@
                   </select>
                 </div>
 
-                <div class="selTech">
+                <div class="selTech" role="menu">
                   <label for="databases">Databases:</label>
                   <br>
                   <select id="databases"
