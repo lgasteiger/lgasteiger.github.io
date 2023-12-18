@@ -208,3 +208,7 @@ div.dateTimeStamp {
   font-size: 0.75rem;
   margin-top: 1rem;
 }
+
+div.bkgrdColorTest1, div.bkgrdColorTest2 {
+  margin: 1rem 0 1rem 1rem;  
+}
