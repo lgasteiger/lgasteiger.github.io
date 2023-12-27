@@ -1,0 +1,14 @@
+body {
+  border: 1px solid black;
+  margin: 2rem;
+  padding: 1.58rem;
+  width: 525px;
+  text-align: justify;
+}
+
+aside {
+  border: 1px solid black;
+  padding: 1.58rem;
+  margin: 1.5rem;
+  background-color: #eee;
+}

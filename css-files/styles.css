@@ -49,7 +49,7 @@ li:last-child {
   border-right: none;
 }
 
-li a, .dropbtn-b1, .dropbtn-b2 {
+li a, .dropbtn-b1, .dropbtn-b2, .dropbtn-b3 {
   display: inline-block;
   color: white;
   text-align: center;
@@ -57,15 +57,15 @@ li a, .dropbtn-b1, .dropbtn-b2 {
   text-decoration: none;
 }
 
-li a:hover, .dropdown-b1:hover .dropbtn-b1, .dropdown-b2:hover .dropbtn-b2 {
+li a:hover, .dropdown-b1:hover .dropbtn-b1, .dropdown-b2:hover .dropbtn-b2, .dropdown-b3:hover .dropbtn-b3 {
   background-color: #04AA6D;
 }
 
-li.dropdown-b1, li.dropdown-b2 {
+li.dropdown-b1, li.dropdown-b2, li.dropdown-b3 {
   display: inline-block;
 }
 
-.dropdown-b1-content, .dropdown-b2-content {
+.dropdown-b1-content, .dropdown-b2-content, .dropdown-b3-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -74,7 +74,7 @@ li.dropdown-b1, li.dropdown-b2 {
   z-index: 1;
 }
 
-.dropdown-b1-content a, .dropdown-b2-content a {
+.dropdown-b1-content a, .dropdown-b2-content a, .dropdown-b3-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -82,11 +82,11 @@ li.dropdown-b1, li.dropdown-b2 {
   text-align: left;
 }
 
-.dropdown-b1-content a:hover, .dropdown-b2-content a:hover {
+.dropdown-b1-content a:hover, .dropdown-b2-content a:hover, .dropdown-b3-content a:hover {
   background-color: #f1f1f1;
 }
 
-.dropdown-b1:hover .dropdown-b1-content, .dropdown-b2:hover .dropdown-b2-content {
+.dropdown-b1:hover .dropdown-b1-content, .dropdown-b2:hover .dropdown-b2-content, .dropdown-b3:hover .dropdown-b3-content {
   display: block;
 }
 
