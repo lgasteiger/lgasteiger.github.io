@@ -19,6 +19,16 @@
       <article>
         <section class="section1">
           <h2>The CSS box model</h2>
+          <h3>The &lt;pre&gt;, &lt;p&gt;, &lt;i&gt;, and &lt;i&gt; Tags Exercises</h3>
+          <pre>
+            body {
+              border: 1px solid black;
+              margin: 2rem;
+              padding: 1.58rem;
+              width: 525px;
+              text-align: justify;
+            }
+          </pre>
           <p>
             An awfully long time ago, an informal or humorous name used in place of a person’s 
             given name was said to be that person’s <i>ekename</i>. The old word <i>eke</i> means 
@@ -37,14 +47,23 @@
           </p>
         </section>
       </article>
+      <h3>The &lt;aside&gt;, &lt;p&gt;, &lt;b&gt;, &lt;i&gt;, &lt;pre&gt; Tags Exercises</h3>
+      <pre>
+        aside {
+          border: 1px solid black;
+          padding: 1.58rem;
+          margin: 1.5rem;
+          background-color: #eee;
+        }
+      </pre>
       <aside>
-        <p>
+        <p class="asideParagraph">
           <b>Note:</b> Creating a new word by chopping off the initial letter or syllable of an 
           existing word is called <i>aphaeresis</i> (which means “to take away”). This not-as-uncommon-as-you-might-think 
           process was the source of words such as <i>mend</i> (a shortening of <i>amend</i>), <i>spy</i> 
           (from <i>espy</i>), <i>cute</i> (from <i>acute</i>), and <i>squire</i> (from <i>esquire</i>).
         </p>
-        <p>
+        <p class="asideParagraph">
           <a href="#top"
              alt="Go to the top of the page"
              title="Go to the top of the page"
@@ -62,17 +81,16 @@
       -->
       <div>
         <ul>
-          <li><a href="www.bing.com">MS Bing Chat</a></li>
-          <li><a href="www.openai.com">Open Ai</a></li>
+          <li><a href="https://www.bing.com">Bing Copilot</a></li>
+          <li><a href="https://www.openai.com">Open Ai</a></li>
           <li><a href="https://www.anthropic.com/">Anthropic Ai</a></li>
+          <li><a href="https://bard.google.com/chat">Bard Ai</a></li>
         </ul>
       </div>
-      <div>
-        <em><strong>
-          <script>
-            document.write(`Last modified: ${document.lastModified}`);
-          </script>
-        </strong></em>
+      <div class="dateTimeStamp">
+        <script>
+          document.write(`Last modified: ${document.lastModified}`);
+        </script>
       </div>
     </footer>      
     

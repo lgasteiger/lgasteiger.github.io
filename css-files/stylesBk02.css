@@ -204,11 +204,13 @@ label.lblPicker {
   margin: 1.5rem 0 0.5rem 0;
 }
 
-div.dateTimeStamp {
-  font-size: 0.75rem;
+.dateTimeStamp {
+  font-size: 1rem;
   margin-top: 1rem;
+  font-weight: bold;
+  font-style: italic;
 }
 
-div.bkgrdColorTest1, div.bkgrdColorTest2 {
+.bkgrdColorTest {
   margin: 1rem 0 1rem 1rem;  
 }
