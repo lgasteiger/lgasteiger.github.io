@@ -142,16 +142,16 @@ td:nth-child(4) {
   width: 300px;
 }
 
-td.nums {
+.nums {
   text-align: right;
 }
 
-td.lblTotal {
+.lblTotal {
   text-align: right;
   font-weight: bold;
 }
 
-td.totVal {
+.totVal {
   text-align: left;
   font-weight: bold;
 }
@@ -163,16 +163,16 @@ button {
   margin-bottom: 1rem;
 }
 
-label.lblTech {
+.lblTech {
   display: block;
   margin: 1rem 0 0 1rem;
 }
 
-textarea.elemTextArea {
+.elemTextArea {
   margin: 0 0 1rem 1rem;
 }
 
-fieldset.fsTech, fieldset.fsPickers {
+.fsTech, .fsPickers {
   max-width: 25rem;
   margin: 0 0 1rem 1rem;
 }
@@ -187,19 +187,19 @@ input[type=radio] {
   margin-top: 1rem;
 }
 
-label.lblDesPatt {
+.lblDesPatt {
   margin: 0 0 0 0.5rem;
 }
 
-div.selTech {
+.selTech {
   margin: 1rem 0 0 0.5rem;
 }
 
-div.divPicker {
+.divPicker {
   margin: 0.5rem 0 1rem 1rem;
 }
 
-label.lblPicker {
+.lblPicker {
   display: block;
   margin: 1.5rem 0 0.5rem 0;
 }
