@@ -1,0 +1,31 @@
+body {
+  max-width: 550px;
+  margin: 16px;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 4px 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+nav {
+  margin-top: 8px;
+  padding: 12px;
+  border: 1px solid black;
+}
+
+li a {
+  display: inline-block;
+  padding: 0 28px;
+  text-decoration: none;
+}
