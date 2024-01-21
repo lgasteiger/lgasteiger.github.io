@@ -1,6 +1,10 @@
 body {
-  max-width: 550px;
+  max-width: 650px;
   margin: 16px;
+}
+
+header {
+  margin-bottom: 8px;
 }
 
 header img {
@@ -24,8 +28,48 @@ nav {
   border: 1px solid black;
 }
 
-li a {
+nav a {
   display: inline-block;
   padding: 0 28px;
   text-decoration: none;
 }
+
+div {
+  border: 1px solid #333;
+  background: #f8f8f8;
+  padding: 8px;
+  width: 650px;
+}
+
+p {
+  padding: 8px;
+  border: 2px solid black;
+}
+
+p.width-value {
+  width: 200px;
+}
+
+p.width-percentage {
+  width: 75%;
+}
+
+p.width-fit-content {
+  width: fit-content;
+}
+
+p.width-max-content {
+  width: max-content;
+}
+
+p.width-min-content {
+  width: min-content;
+}
+
+.date-time-stamp {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
