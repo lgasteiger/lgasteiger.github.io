@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Example 1</title>
+    <link rel="stylesheet" href="../css-files/stylesSelectors.css">
+  <head> 
+  <body>
+    <header>
+      <h1 id="top">CSS Selectors Example 1</h1>
+    </header>
+    <nav aria-label="Site Navigation">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+      </ul> 
+    </nav>
+    <main>
+      <article>
+        <section class="type-selectors">
+          <h2>So Many Kale Recipes</h2>
+          <h3>Above and Beyond the Kale of Duty</h3>
+          <p>
+            Do you love to cook with kale?
+          </p>
+          <p>
+            Do you know the history of kale?
+          </p>
+          <p>
+            Are you obsessed with kale?
+          </p>
+        </section>
+        <section class="class-selectors">
+        <h2 class="subtitle">Language News You Won't Find Anywhere Else (Because We Make It Up)</h2>
+        <h3 class="subtitle">Scientists Discover Elusive Soup-Nuts Continuum</h3>  
+      </section>
+      <section class="id-selectors">
+        <h2 id="page-title">"News" of the world</h2>
+        <h3 class="subtitle">French language news you won't find anywhere else (unless you're a relative of Jack Reacher's mom.</h3>
+      </section>
+      </article>
+      <aside>
+        <h4 class="subtitle aside-title">Did you know?</h4>
+        <p>
+          <a href="#top"
+             alt="Go to the top of the page"
+             title="Go to the top of the page"
+          >Goto Top</a>
+        </p>
+      </aside>
+    </main>
+    <footer>
+      <br>
+      <div>
+        Requisite media links
+      </div>
+      <!--
+        Each of the following links needs to be updated with the full address to our corresponding media page(s). Thanks!
+      -->
+      <div aria-label="Media Hyperlinks">
+        <ul>
+          <li><a href="https://www.bing.com">Bing Copilot</a></li>
+          <li><a href="https://www.openai.com">Open Ai</a></li>
+          <li><a href="https://www.anthropic.com/">Anthropic Ai</a></li>
+          <li><a href="https://bard.google.com/chat">Bard Ai</a></li>
+        </ul>
+      </div>
+      <div class="date-time-stamp">
+        <script>
+          document.write(`Last modified: ${document.lastModified}`);
+        </script>
+      </div>
+    </footer>
+  </body>
+</html>
