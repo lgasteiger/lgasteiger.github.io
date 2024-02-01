@@ -9,7 +9,7 @@ body {
   width: fit-content;
 }
 
-aside {
+aside.descendant-comb {
   margin: 8px 0 0 8px;
 }
 
@@ -36,10 +36,23 @@ h4 {
   margin-bottom: 4px;
 }
 
-aside a {
+aside.descendant-comb a {
   color: red;
   font-style: italic;
   text-decoration: none;
+}
+
+aside.child-comb, div.child-comb {
+  margin: 8px;
+  padding: 8px;
+}
+
+aside > h4 {
+  color: green;
+  border-top: 3px solid black;
+  border-bottom: 5px double black;
+  padding: 4px 0;
+  text-transform: uppercase;
 }
 
 p {

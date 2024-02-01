@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Descendents Examples</title>
+    <title>CSS Combinator Examples</title>
     <link rel="stylesheet" href="../css-files/stylesDescendents.css">
   <head> 
   <body>
     <header>
-      <h1 id="top">CSS Descendents Examples</h1>
+      <h1 id="top">CSS Combinator Examples</h1>
     </header>
     <nav aria-label="Site Navigation">
       <ul>
@@ -17,24 +17,61 @@
     </nav>
     <main>
       <article>
-        <section class="descendant-exer">
+        <section>
           <h2>The Descendant Combinator Example</h2>
+          <aside class="descendant-comb">
+            <h4>Links:</h4>
+            <div class="descendant-comb">
+              <a href="../book1-ex/beginningJs.html">Beginning Javascript</a><br>
+              <a href="../book2-ex/basicTables.html">Basic Tables</a><br>
+              <a href="../book3-ex/settingWidthExer.html">Width Excercise</a>
+            </div>
+          </aside>
         </section>
+       <section>
+         <h2>The Child Combinator Example</h2>
+         <aside class="child-comb">
+           <h4>Links:</h4>
+           <div class="child-comb">
+             <a href="../book1-ex/beginningStructure.html">Beginning HTML Structure</a><br>
+             <a href="../book2-ex/basicWebForms.html">Beginning Web Forms</a><br>
+             <a href="../book3-ex/cssSelectorsExer1.html">Beginning CSS Selectors</a>
+           </div>
+           <h4>See Also:</h4>
+           <div class="child-comb">
+             <a href="../book1-ex/beginningStyle.html">Beginning CSS Style</a><br>
+             <a href="../book2-ex/menuTypeLists.html">HTML Menu Type Lists</a><br>
+             <a href="../book3-ex/borderStyleExer.html">CSS Border Styles</a>
+           </div>
+         </aside>
+       </section>
+       <section>
+        <h2>The Subsequent-Sibling Combinator Example</h2>
+        <h3>Selectors Cheat Sheet</h3>
+        <h4>Standard:</h4>
+        <ul>
+          <li>Type selector</li>
+          <li>Class selector (.)</li>
+          <li>Id selector (#)</li>
+          <li>Universal selector (*)</li>
+        </ul>
+        <h4>Combinators:</h4>
+        <ul>
+          <li>Descendant ( )</li>
+          <li>Child (>)</li>
+          <li>Subsequent-sibling (~)</li>
+          <li>Next-sibling (+)</li>
+        </ul>
+       </section>
+        <aside class="goto-top">
+          <p>
+            <a href="#top"
+               alt="Go to the top of the page"
+               title="Go to the top of the page"
+            >Goto Top</a>
+          </p>
+        </aside>
       </article>
-      <aside>
-        <h4>Links:</h4>
-        <div>
-          <a href="../book1-ex/beginningJs.html">Beginning Javascript</a><br>
-          <a href="../book2-ex/basicTables.html">Basic Tables</a><br>
-          <a href="../book3-ex/settingWidthExer.html">Width Excercise</a>
-        </div>
-        <p>
-          <a href="#top"
-             alt="Go to the top of the page"
-             title="Go to the top of the page"
-          >Goto Top</a>
-        </p>
-      </aside>
     </main>
     <footer>
       <br>
