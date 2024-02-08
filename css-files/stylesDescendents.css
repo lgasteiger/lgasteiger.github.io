@@ -36,6 +36,17 @@ h4 {
   margin-bottom: 4px;
 }
 
+h3.sub-sibling-comb, h4.sub-sibling-comb, ul.sub-sibling-comb {
+  margin: 16px;
+}
+
+h2.sub-sibling-comb ~ ul.sub-sibling-comb {
+  background: lightpink;
+  border: 5px outset crimson;
+  list-style-type: square;
+  padding: 8px 20px;
+}
+
 aside.descendant-comb a {
   color: red;
   font-style: italic;
@@ -55,8 +66,16 @@ aside > h4 {
   text-transform: uppercase;
 }
 
+h3.next-sib-comb, p.next-sib-comb {
+  margin: 16px;
+}
+
+h3.next-sib-comb + p.next-sib-comb {
+  font-style: italic;
+}
+
 p {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 ul {
