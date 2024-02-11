@@ -3,27 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Collapsing Margins Examples</title>
-    <link rel="stylesheet" href="../css-files/stylesBk03v4.css">
+    <title>Attribute Only Selector Examples</title>
+    <link rel="stylesheet" href="">
   <head> 
   <body>
     <header>
-      <h1 id="top">Collapsing Margins Examples</h1>
-      <img src="../images/notw.png"
-           alt="News of the Word logo"
-      >
-      <h2>News of the Word</h2>
-      <h3>Language news you won't find anywhere else (for good reason!)</h3>
+      <h1 id="top">Attribute Only Selector Examples</h1>
     </header>
     <nav aria-label="Site Navigation">
-      <a href="../index.html">Home</a>
-      <a href="../book1-ex/basicHtmlTags.html">Basic HTML Tags</a>
-      <a href="../book2-ex/commonTags.html">Common HTML Tags</a>
-      <a href="../book3-ex/cssIntroExercise.html">CSS Intro</a>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+      </ul> 
     </nav>
     <main>
       <article>
         <section class="section-1">
+          <h2>Glossary</h2>
+          <p>
+            <abbr titl="Joy of missing out">JOMO</abbr> n. The pleasure from no
+              longer worrying about missing out on what other people are doing
+              or saying.
+          </p>
         </section>
       </article>
       <aside>
@@ -36,6 +36,7 @@
       </aside>
     </main>
     <footer>
+      <br>
       <div class="date-time-stamp">
         <script>
           document.write(`Last modified: ${document.lastModified}`);

@@ -1,0 +1,90 @@
+body {
+  margin: 2rem;
+  font-size: 1rem;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  font-family: Verdana;
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+h4 {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: black;
+}
+
+p {
+  font-size: 24px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  caption-side: bottom;
+  text-align: left;
+  padding-top: 5px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+th {
+  /* width: 200px; */
+  padding: 10px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+td:nth-child(1) {
+  width: 300px;
+}
+
+td:nth-child(4) {
+  width: 300px;
+}
+
+.nums {
+  text-align: right;
+}
+
+.lblTotal {
+  font-weight: bold;
+}
+
+.totVal {
+  text-align: left;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px grey;
+}
+
+.date-time-stamp {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+ 
