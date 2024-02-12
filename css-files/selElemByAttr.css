@@ -1,6 +1,5 @@
 body {
-  margin: 2rem;
-  font-size: 1rem;
+  width: fit-content;
 }
 
 h1 {
@@ -30,6 +29,61 @@ h4 {
 
 p {
   font-size: 24px;
+}
+
+h3.attr-only-sel, p.attr-only-sel, h3.attr-eq-sel, h3.attr-starts-with-sel, h3.attr-ends-with-sel {
+  margin: 16px;
+}
+
+abbr[title] {
+  border: 2px dotted gray;
+}
+
+ul.attr-eq-sel, ul.attr-starts-with-sel, ul.attr-ends-with-sel {
+  margin-left: 16px;
+}
+
+li.attr-eq-sel, li.attr-starts-with-sel, li.attr-ends-with-sel {
+  padding: 3px;
+}
+
+a[href="https://webdev.mcfedries.com/code/selector-reference/"] {
+  color: green;
+}
+
+a[href^="https://www"] {
+  color: red;
+}
+
+a[href$=".org/"] {
+  color: firebrick;
+}
+
+div.attr-contains-sel {
+  font-size: 14px;
+  margin: 16px;
+}
+
+div[id*="meat"] {
+  font-size: 24px;
+}
+
+div.attr-1st-sel {
+  margin: 16px;
+}
+
+div[lang|="en"] {
+  color: blue;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  margin: 16px;
+}
+
+img[alt~="photo"] {
+  border: 24px ridge brown;
 }
 
 table {

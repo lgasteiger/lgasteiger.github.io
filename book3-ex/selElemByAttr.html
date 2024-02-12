@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attribute Only Selector Examples</title>
-    <link rel="stylesheet" href="">
+    <title>Attribute Selector Examples</title>
+    <link rel="stylesheet" href="../css-files/selElemByAttr.css">
   <head> 
   <body>
     <header>
-      <h1 id="top">Attribute Only Selector Examples</h1>
+      <h1 id="top">Attribute Selector Examples</h1>
     </header>
     <nav aria-label="Site Navigation">
       <ul>
@@ -17,13 +17,88 @@
     </nav>
     <main>
       <article>
-        <section class="section-1">
-          <h2>Glossary</h2>
-          <p>
-            <abbr titl="Joy of missing out">JOMO</abbr> n. The pleasure from no
-              longer worrying about missing out on what other people are doing
-              or saying.
+        <section class="attr-only-sel">
+          <h2>The Attribute Only Selector Example</h2>
+          <h3 class="attr-only-sel">Glossary</h3>
+          <p class="attr-only-sel">
+            <abbr title="Joy of missing out">JOMO</abbr> n. The pleasure from no
+            longer worrying about missing out on what other people are doing
+            or saying.
           </p>
+          <p class="attr-only-sel">
+            disconnectionist n. A person who advocates spending time away from 
+            online activities, particularly for mental or spiritual rejuvenation.
+          </p>
+          <p class="attr-only-sel">
+            <abbr title="Middle-aged man in lycra">MAMIL</abbr> n. A middle-aged
+            man who is a devotee of cycling or some orther sport that requires 
+            or encourage the wearing of Lycra.
+          </p>
+          <p class="attr-only-sel">
+            thumbstopper n. An eye-catching or compelling item that makes a 
+            person stop scrolling through a list of posts, particularly when
+            using a the thumb to scroll a touchscreen device.
+          </p>
+        </section>
+        <section class="attr-eq-sel">
+          <h2>The Attribute Equals Selector (=) Example</h2>
+          <h3 class="attr-eq-sel">CSS Selector References</h3>
+          <ul class="attr-eq-sel">
+            <li class="attr-eq-sel"><a href="https://www.w3.org/TR/selectors-4/">W3C Selectors Level 4</a></li>
+            <li class="attr-eq-sel"><a href="https://webdev.mcfedries.com/code/selector-reference/">WebDev Workshop</a></li>
+            <li class="attr-eq-sel"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Mozilla Developer Network</a></li>
+          </ul>
+        </section>
+        <section class="attr-starts-with-sel">
+          <h2>The Attribute Starts With Selector (^=)</h2>
+          <h3 class="attr-starts-with-sel">CSS Selector References</h3>
+          <ul class="attr-starts-with-sel">
+            <li class="attr-starts-with-sel"><a href="https://www.w3.org/TR/selectors-4/">W3C Selectors Level 4</a></li>
+            <li class="attr-starts-with-sel"><a href="https://webdev.mcfedries.com/code/selector-reference/">WebDev Workshop</a></li>
+            <li class="attr-starts-with-sel"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Mozilla Developer Network</a></li>
+          </ul>
+        </section>
+        <section class="attr-contains-sel">
+          <h2>The Attribute Contains Selector (*=)</h2>
+          <div id="item-meat-first" class="attr-contains-sel">
+            Bacon ipsum dolor amet meatloaf biltong drumstick buffalo hamburger 
+            tri-tip. Ribeye flank turducken, tail ball tip kielbasa salami 
+            turkey chicken pork chop.
+          </div>
+          <div id="item-cheese-first" class="attr-contains-sel">
+            I love cheese, especially cheese slices jarlsberg. Cheeseburger 
+            cauliflower cheese smelly cheese who moved my cheese rubber cheese 
+            cheese on toast feta cheesecake.
+          </div>
+          <div id="item-meat-last" class="attr-contains-sel">
+            Chuck cow landjaeger turkey burgdoggen. Pork chop pig doner, tri-tip
+            pork belly kevin prosciutto ham rump.
+          </div>
+        </section>
+        <section class="attr-ends-with-sel">
+          <h2>The Attribute Ends With Selector ($=)</h2>
+          <h3 class="attr-ends-with-sel">Links (socially responsible AI companies in red)</h3>
+          <ul class="attr-ends-with-sel">
+            <li class="attr-ends-with-sel"><a href="https://www.microsoft.com/">Microsoft Copilot</a></li>
+            <li class="attr-ends-with-sel"><a href="https://www.openai.com/">Open AI ChatGPT</a></li>
+            <li class="attr-ends-with-sel"><a href="https://www.anthropic.org/">Anthropic AI Claude</a></li>
+            <li class="attr-ends-with-sel"><a href="http://www.google.gemini.com/">Google Gemini</a></li>
+          </ul>
+        </section>
+        <section class="attr-1st-sel">
+          <h2>The Attribute is 1st Selector (|=)</h2>
+          <div class="attr-1st-sel" lang="en-au">Hello from Australia!</div>
+          <div class="attr-1st-sel" lang="fr">Bonjour France Monde!</div>
+          <div class="attr-1st-sel" lang="en-nz">Hello from New Zealand!</div>
+          <div class="attr-1st-sel" lang="pt">Ola Mundo Portugues!</div>
+          <div class="attr-1st-sel" lang="es">Hola Espana Mundo!</div>
+          <div class="attr-1st-sel" lang="en-us">Hello from the US!</div>
+        </section>
+        <section class="attr-incl-sel">
+          <h2>The Attribute Includes Selector (~=)</h2>
+          <img src="../images/image24-thumbnail.jpg" alt="A photo showing the typical English humour">
+          <img src="../images/image27-thumbnail.jpg" alt="While in Montreal, I took this photo of a boy amoung statues">
+          <img src="../images/image35-thumbnail.jpg" alt="A photograph of some local graffiti">
         </section>
       </article>
       <aside>
@@ -36,7 +111,6 @@
       </aside>
     </main>
     <footer>
-      <br>
       <div class="date-time-stamp">
         <script>
           document.write(`Last modified: ${document.lastModified}`);
