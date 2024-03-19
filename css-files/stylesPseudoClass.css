@@ -34,6 +34,12 @@ p {
   width: 500px;
 }
 
+p.nth-child-pseudo-class, table {
+  margin: 16px;
+}
+
+
+
 p:first-child {
   text-indent: 0;
 }
@@ -47,7 +53,7 @@ p:last-child {
 }
 
 table {
-  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 caption {
@@ -59,41 +65,13 @@ caption {
   font-size: 0.75rem;
 }
 
-th {
-  /* width: 200px; */
-  padding: 10px;
-}
-
-td {
-  border: 1px solid black;
-  padding: 10px;
-}
-
-td:nth-child(1) {
-  width: 300px;
-}
-
-td:nth-child(4) {
-  width: 300px;
-}
-
-.nums {
-  text-align: right;
-}
-
-.lblTotal {
-  text-align: right;
-  font-weight: bold;
-}
-
-.totVal {
+th, td {
+  padding: 3px;
   text-align: left;
-  font-weight: bold;
 }
 
-button {
-  border-radius: 15px;
-  box-shadow: 3px 3px 5px grey;
+tr:nth-child(even) {
+  background-color: lightgray;
 }
 
 .date-time-stamp {
